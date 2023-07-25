@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+    font-family: 'Poppins', sans-serif; 
+}
+  
+
+  h1{
+    text-align: center;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:beige;
+}
+  
+  .form-register {
+    width: 500px;
+    background: #252d35;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 4px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+  }
+  
+  .form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+  }
+  
+  .form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .form-register a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .form-register a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .form-register .botons {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+  }
+
+  /* Estilos de la tabla */
+table {
+  width: 80%;
+  border-collapse: collapse;
+  font-size: 16px;
+  border: 2px solid #1f53c5;
+  border-radius: 4px;
+  margin: 0 auto; /* Centrar la tabla horizontalmente */
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #1f53c5;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+/* Estilos del botón dentro de la celda de la tabla */
+td button {
+  display: block; /* Hacer que el botón sea un bloque para ajustar su ancho */
+  width: 100%; /* Ajustar el ancho al 100% para ocupar toda la celda */
+  background-color: #1f53c5;
+  color: white;
+  border: none;
+  padding: 8px 0; /* Eliminar el padding vertical y mantener el padding horizontal */
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+td button:hover {
+  background-color: #1a46b0;
+}
+
+
+  

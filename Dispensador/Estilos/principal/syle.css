@@ -1,0 +1,138 @@
+header {
+    background-color: #c56d16e0;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color:rgb(37, 40, 37);
+    
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+  
+  nav li a:hover {
+    background-color: white;
+    color: skyblue;
+  }
+  body{
+    background-color: #fff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  .Piedepagina{
+    background-color: #4a4646;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+
+  }
+  footer.redesociales{
+
+    color: #000000;
+    text-align: right;
+    padding: 10px;
+
+  }
+  body{
+    background-color: rgb(255, 255, 255);
+
+  }
+
+  .principal {
+    display: flex;
+    justify-content: center;
+    
+    
+  }
+  .prin{
+    width: 500px;
+    object-fit: cover;
+  }
+  div{
+    text-align: center;
+    padding: 0.5px;
+  }
+.precio{
+  text-align: center;
+  color: #4a4646;
+  line-height: 0%;
+  
+}
+.precio button{
+  border: none;
+  background: none;
+  background-color: black;
+  color: #fff;
+  padding: 15px  10px;
+}
+  redes
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+
+
+.buttons {
+  min-width: 700px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttons a {
+  text-decoration: none;
+  font-size: 22px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background: #314652;
+  color: #f1f1f1;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+  transition: all .4s ease-in-out;
+}
+
+.buttons a:hover {
+  transform: scale(1.2);
+}
+    
+.todo{
+  background-image: url(/fondo.jpg);
+}
+.boton {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+}
+.box {
+  width: 900px;
+  height: 400px;
+  background-color: #eee;
+  padding: 20px;
+  
+
+}
+

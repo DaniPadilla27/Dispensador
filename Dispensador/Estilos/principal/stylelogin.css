@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+
+    font-family: arial;
+
+  }
+  
+  .form-login {
+    width: 400px;
+    height: 340px;
+    background: #020101;
+    margin: auto;
+    margin-top: 180px;
+    box-shadow: 7px 13px 37px #e54915;
+    padding: 20px 30px;
+    border-top: 3px solid  #e54915;
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 10px; /* Ajusta este valor para controlar la curvatura de las esquinas */
+  }
+  
+  
+  .form-login h5 {
+    margin: 0;
+    text-align: center;
+    height: 45px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 20px;
+  }
+  
+  .controls {
+    width: 100%;
+    border: 1px solid  #c96500;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    background: #2624249f;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'calibri';
+    
+  }
+  
+  .buttons {
+    width: 100%;
+    height: 40px;
+    background:  #c96500;
+    border: none;
+    color: rgb(244, 244, 244);
+    margin-bottom: 10px ;
+  }
+  
+  .form-login p{
+    height: 40px;
+    text-align: center;
+ 
+  }
+  
+  .form-login a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+
+

@@ -1,0 +1,138 @@
+/* Style for each product item */
+.items {
+    position: relative;
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Box shadow */
+    transition: transform 0.3s ease; /* Adding a transition for smooth scaling effect */
+}
+
+.items:hover {
+    transform: scale(1.05); /* Scaling up the item slightly on hover */
+}
+
+/* ... Other styles ... */
+
+.container-products {
+    max-width: 1100px;
+    margin: auto;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* ... Other styles ... */
+
+
+.items img{
+    width: 100%;
+    height: 180px;
+}
+.grid{
+    display: grid;
+    max-width: 1100px;
+    margin: auto;
+    gap: 40px;
+    grid-template-columns: repeat(4,280px);
+    justify-content: center;
+
+}
+
+button {
+    height: 41px;
+    width: 195px;
+    color: rgb(252, 252, 253);
+    font-size: 16px;
+}
+
+/* ... Otros estilos ... */
+
+.container-products {
+    max-width: 1100px;
+    margin: auto;
+    text-align: center; /* Centra el contenido horizontalmente */
+    padding: 20px 0; /* Añade espaciado superior e inferior */
+}
+
+.container-products form {
+    display: inline-block; /* Asegura que el formulario y el botón estén en la misma línea */
+    margin-bottom: 20px; /* Agrega espaciado inferior */
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px; /* Agrega un pequeño espaciado inferior al label */
+}
+
+/* ... Otros estilos ... */
+
+
+
+
+
+/* Style for the form container */
+form {
+    max-width: 300px;
+    margin: auto;
+
+}
+
+/* Center the select dropdown */
+
+
+/* Style for the label */
+
+/* Style for the select dropdown */
+/* ... Otros estilos ... */
+
+/* Style for the select dropdown */
+form select {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px; /* Agrega un margen inferior de 10px */
+}
+
+/* Style for the submit button */
+form button {
+    display: block;
+    width: 50%;
+    height: 41px;
+    line-height: 41px;
+    margin: auto; /* Centra horizontalmente el botón usando márgenes automáticos */
+    padding: 0;
+    background-color: #f57c00; /* Yellow button color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+
+
+/* ... Otros estilos ... */
+
+/* Style for the "Comprar" link */
+.info a {
+    display: inline-block;
+    margin-top: 5px;
+    padding: 6px 12px;
+    background-color: #c96500; /* Yellow button color */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 14px;
+}
+h3{
+    color: #fff;
+
+}
+/* Add CSS for the category label class */
+.category-label {
+    color: #fff; /* Set the text color to white */
+}

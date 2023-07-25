@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url('fondo4.jpg');
+    background-size: cover;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    padding: 10px;
+}
+
+.items {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.items:hover {
+    transform: translateY(-5px);
+}
+
+.items img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.info {
+    padding: 10px;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 12px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.precio p {
+    font-size: 14px;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 5px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    background-color:  #c96500;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color:  #c96500;
+}
+
+.back-button {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    background-color: #171515;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color:  #c96500;
+}
+
+/* ... Existing styles for other elements ... */
+
+button {
+    /* ... Existing button styles ... */
+    margin-bottom: 10px; /* Add a bit of spacing at the bottom of the button */
+}
+
+.back-button {
+    /* ... Existing back-button styles ... */
+    margin-top: 10px; /* Add a bit of spacing at the top of the button */
+}
+
+
+

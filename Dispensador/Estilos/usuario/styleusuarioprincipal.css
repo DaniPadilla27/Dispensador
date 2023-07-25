@@ -1,0 +1,123 @@
+header {
+    background-color:beige;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 
+    0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color:rgb(180, 140, 90);
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 5px 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  nav li a:hover {
+    background-color: white;
+    color: skyblue;
+  }
+  body{
+    background-color: #ffffff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  .Piedepagina{
+    background-color: #4a4646;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+
+  }
+  footer.redesociales{
+    background-color: #ffffff;
+    color: #000000;
+    text-align: right;
+    padding: 10px;
+
+  }
+  body{
+    background-color: rgb(255, 255, 255);
+  }
+
+  .carritoo{
+    width: 50px;
+    te;
+  }
+  .principal {
+    display: flex;
+    justify-content: center;
+    
+    
+  }
+  .prin{
+    width: 500px;
+    object-fit: cover;
+  }
+  div{
+    text-align: center;
+    padding: 0.5px;
+  }
+.precio{
+  text-align: center;
+  color: #4a4646;
+  line-height: 0%;
+  
+}
+.precio button{
+  border: none;
+  background: none;
+  background-color: black;
+  color: #fff;
+  padding: 15px  10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+
+
+.buttons {
+  min-width: 700px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttons a {
+  text-decoration: none;
+  font-size: 22px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background: #314652;
+  color: #f1f1f1;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+  transition: all .4s ease-in-out;
+}
+
+.buttons a:hover {
+  transform: scale(1.2);
+}
+
+    
